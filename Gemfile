@@ -15,3 +15,7 @@ group :assets do
 end
 
 gem 'jquery-rails',   '2.1.4'
+
+group :production do
+  gem 'pg', '0.14.1'
+end
